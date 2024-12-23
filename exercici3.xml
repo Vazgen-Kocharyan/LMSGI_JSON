@@ -7,8 +7,10 @@
 		<height>1.78</height>
 		<job>Informàtic</job>
 		<favorite_simile>&lt;3</favorite_simile>
-		<pets>black cat</pets>
-		<pets>chiwawa</pets>
+		<pets>
+			<pet>black cat</pet>
+			<pet>chiwawa</pet>
+		</pets>
 		<address>
 			<street>Pau Claris</street>
 			<number>121</number>
@@ -23,13 +25,15 @@
 		<twitter>true</twitter>
 	</social_media>
 	<friends> <!-- Informació sobre els amics-->
-		<name>Jhon</name>
-		<surname>Doe</surname>
-		<age>35</age>
-	</friends>
-	<friends>
-		<name>Anna</name>
-		<surname>Smith</surname>
-		<age />
+		<friend>
+			<name>Jhon</name>
+			<surname>Doe</surname>
+			<age>35</age>
+		</friend>
+		<friend>	
+			<name>Anna</name>
+			<surname>Smith</surname>
+			<age />
+		</friend>
 	</friends>
 </root>
