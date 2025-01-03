@@ -1,0 +1,104 @@
+{
+	"pokemons": [
+		{
+			"id": 443,
+			"nom": "Gible",
+			"tipus": ["Dragón","Tierra"],
+			"pes": {
+				"unitat": "kg",
+				"quantitat": 20.5
+			},
+			"altura": {
+				"unitat": "m",
+				"quantitat": 0.7
+			},
+			"estadistiques": {
+				"velocitat": 4,
+				"fortalesa": 4,
+				"precisio": 3,
+				"resistencia": 3
+			},
+			"moviments": [
+				{
+					"nom": "Placaje",
+					"descripcio": "Choca con todas sus fuerzas contra los enemigos frente a sí para infligirles daño.",
+					"potencia": 40,
+					"contacte": true
+				},
+				{
+					"nom": "Bucle arena",
+					"descripcio": "Bucle arena causa daño. Además atrapa al rival, restándole 1/16 de los PS máximos durante cada turno hasta ser liberado. El oponente puede quedar atrapado de 2 a 5 turnos y sólo puede escapar del ataque usando giro rápido.",
+					"potencia": 35,
+					"contacte": true
+				},
+				{
+					"nom": "Dragonaliento",
+					"descripcio": "Dragoaliento causa daño y tiene una probabilidad del 30% de paralizar al objetivo.",
+					"potencia": 60,
+					"contacte": false
+				}
+			],
+			"imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/3/37/latest/20200721113028/Gible.png/300px-Gible.png",
+			"evolucions": [
+				{
+					"id": 444,
+					"nivell": 24
+				},
+				{
+					"id": 445,
+					"nivell": 48
+				}
+			]
+		},
+		{
+			"id": 4,
+			"nom": "Charmander",
+			"tipus": ["Fuego"],
+			"pes": {
+				"unitat": "kg",
+				"quantitat": 8.5
+			},
+			"altura": {
+				"unitat": "m",
+				"quantitat": 0.6
+			},
+			"estadistiques": {
+				"velocitat": 3,
+				"fortalesa": 5,
+				"precisio": 4,
+				"resistencia": 3
+			},
+			"moviments": [
+				{
+					"nom": "Arañazo",
+					"descripcio": "Arañazo causa daño y no tiene ningún efecto secundario.",
+					"potencia": 40,
+					"contacte": true
+				},
+				{
+					"nom": "Ascuas",
+					"descripcio": "Ascuas causa daño y tiene una probabilidad del 10% de quemar al objetivo.",
+					"potencia": 40,
+					"contacte": false
+				},
+				{
+					"nom": "Pantalla de humo",
+					"descripcio": "Pantalla de humo reduce en un nivel la precisión del objetivo.",
+					"potencia": null,
+					"contacte": false
+				}
+			],
+			"imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/5/56/Charmander.png",
+			"evolucions": [
+				{
+					"id": 5,
+					"nivell": 16
+				},
+				{
+					"id": 6,
+					"nivell": 36
+				}
+			]
+		}
+	]
+}
