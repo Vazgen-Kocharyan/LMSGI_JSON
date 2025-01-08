@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<store> <!--estructura tienda-->
+	<product code="0001"> <!--Producte 1--> 
+		<name>Logitech G203</name>
+		<description>Ratolí gamer</description>
+		<price currency="eur">24.90</price>
+		<category>Informatica</category>
+		<availabitlity>en estoc</availabitlity>
+		<image>https://m.media-amazon.com/images/I/61UxfXTUyvL._AC_SL1500_.jpg</image>
+	</product>
+	<product code="0002"> <!--Producte 2-->
+		<name>Silla</name>
+		<description>Silla de piel sintética de oficina</description>
+		<price currency="eur">122.00</price>
+		<category>mobles</category>
+		<availabitlity>en estoc</availabitlity>
+		<image>https://m.media-amazon.com/images/I/71DrSID1O-L._AC_SL1500_.jpg</image>
+	</product>
+	<product code="0003"> <!--Producte 3-->
+		<name>Escritorio</name>
+		<description>Escritorio de ordenador de Gaming con espacio para guardar los controladores, los auriculares y los altavoces, rojo, 130 x 60 x 90 cm</description>
+		<price currency="eur">142.99</price>
+		<category>mobles</category>
+		<availabitlity>esgotat</availabitlity>
+		<image>https://m.media-amazon.com/images/I/810DSIybV5L._AC_SL1500_.jpg</image>
+	</product>
+</store>
